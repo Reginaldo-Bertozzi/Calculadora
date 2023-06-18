@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Digite dois números"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Número 1"
+        android:inputType="number|numberDecimal"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/edit_numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Número 2"
+        android:inputType="number|numberDecimal"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/Operacoes"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_escolha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Escolha uma opção"
+        android:inputType="number|numberDecimal"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/text_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text=""
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculadora</string>
+    <string name="Operacoes">1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Potência\n6 - Raiz Quadrada\n7 - Raiz Cúbica</string>
+</resources>
